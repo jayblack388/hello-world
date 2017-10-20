@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+	<html lang="en-US">
+	<head>
+	<meta charset="UTF-8">
+
+		<title>This is the title</title>
+	
+	</head>
+
+	<body>
+	<h1>Heading 1</h1>
+	<!---style as an attribute is really just an inline CSS element-->
+	<p style="font-size:20px" style="color:red">
+		This is a paragraph
+	</p>
+	<!---alt is what shows up when the img won't load; width and height are to set dimensions-->
+	<img title="This is the Strawhat's Flag" src="https://i.ytimg.com/vi/GaHT-UmcDYg/hqdefault.jpg" alt="Straw Hat Logo" width="480" height="360">
+	<br>
+	<hr>
+	<h2 style="background-color:azure;">Heading 2</h2>
+	<!---target=blank_ is to open links in new tabs/windows-->
+	<a target=blank_ href="https://www.wikipedia.org">This is a link to Wikipedia</a>
+	<h3 style="text-align:center;">Heading 3</h3>
+	<!---title as an attribute adds a mouseover title-->
+	<p style="color:blue;" title='This "paragraph" has a title'>
+		This is a paragraph, but it also has a title
+	</p>
+	<p style="font-family:courier;" style="font-size:300%;">
+		This is a longer paragraph<br> but it has breaks in it<br> so it looks a bit narrower.
+	</p>
+	<pre>
+This is a block of text that has been "preformatted"
+
+It uses the specific text that is entered in the HTML code
+It uses the indentation and the font of the code text
+	So
+It
+	Shows 
+Up
+	Different
+	</pre>
+	<h4>Heading 4</h4>
+	<p>
+	This is a <b>bold</b> paragraph
+	</p>
+	<p>
+	This is an <strong>important</strong> paragraph
+	</p>
+	<p>
+	This is an <i>italic</i> paragraph
+	</p>
+	<p>
+	<cite>The Paragraph</cite> was a movie produced in 3027 and is cited
+	</p>
+	<p>
+	This is an <em>emphasized</em> paragraph
+	</p>
+	<p>
+	This is a <mark>marked</mark> paragraph
+	</p>
+	<p>
+	This is an <small>small</small> paragraph
+	</p>
+	<p>
+	This is a <del>deleted</del> paragraph
+	</p>
+	<p>
+	This is an <ins>inserted</ins> paragraph
+	</p>
+	<p>
+	This is a <sub>subscript</sub> paragraph
+	</p>
+	<p>
+	This is a <sup>superscript</sup> paragraph
+	</p>
+	<p>
+	This text is affected by bdo element and is <bdo dir=rtl>backwards</bdo>
+	</p>
+	<h5>Heading 5</h5>
+	<p>
+	Bob Marley said <q>One good thing about music is when it hits you, you fell no pain</q>
+	</p>
+	<p>
+	The <abbr title="Club Manager's Association of America">CMAA</abbr> is a silly organization only used by country club and golf club professionals.
+	</p>
+	<address>
+	Written by John Blackwell<br>
+	Visit us at:<br>
+	<a target=blank_ href="https://www.wikipedia.org">Wikipedia.org</a><br>
+	2037 Monument Ave Apt. B<br>
+	Richmond, VA USA
+	</address>
+	<p>
+	Blockquotes typically will get indented.
+	</p>
+	<!---cite attribute is kind of weird, it's not visible to end user, so it's really just a backend reference-->
+	<blockquote cite="https://www.wikipedia.org">There is a lot of nonsense going on right now and I don't know how to go about dealing with it. I mean this whole <q>quote</q> itself seems pretty nonsensical. I mean if I kept typing and none of it actually meant anything would it really be a quote at all or just a string of concious thought? Will it ever end? Will it stay indented or will it run off the page?</blockquote>
+	<h6>Heading 6</h6>
+	<!-- Do not display this at the moment, this is a way to stash elements until you want to display them or until they are debugged
+		<img title="This is the Strawhat's Flag" src="https://i.ytimg.com/vi/GaHT-UmcDYg/hqdefault.jpg" alt="Straw Hat Logo" width="480" height="360">
+	-->
+	<!-- This is a note to pick up W3C on HTML Colors-->
+
+	<input type="text" placeholder="this is the text that's in the box before the user types">
+
+	</body>
+
+	</html>
